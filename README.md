@@ -15,6 +15,7 @@ The GELF appender supports sending log messages over UDP to a [GELF](http://docs
 * `hostname` - `string` (defaults to `OS.hostname()`) - the hostname used to identify the origin of the log messages.
 * `facility` - `string` (optional)
 * `customFields` - `object` (optional) - fields to be added to each log message; custom fields must start with an underscore.
+* `appendCategory` - `string` (optional) - name for the custom field containing log4js category. Does not start with an underscore.
 
 ## Example (default config)
 ```javascript
